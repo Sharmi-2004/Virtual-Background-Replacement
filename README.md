@@ -34,8 +34,11 @@ No installation is required in Colab as all dependencies come pre-installed.
 
 ```python
 input_image_path = "/content/your_subject.jpg"
-virtual_bg_path = "/content/your_background.jpg"
-Conclusion
+virtual_bg_path = "/content/your_background.jpg"```
+
+.
+
+##Conclusion
 
 The above code provides a simple and effective way to perform background replacement using OpenCV in Google Colab. By leveraging basic image processing techniques like grayscale conversion, thresholding, and bitwise operations, it isolates the foreground from the original image and places it onto a new virtual background.
 
