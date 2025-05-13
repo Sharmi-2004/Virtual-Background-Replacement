@@ -1,5 +1,4 @@
 # Virtual-Background-Replacement
-# Background Replacement using OpenCV in Google Colab
 
 This project performs simple background replacement for an uploaded image using OpenCV. It separates the foreground using basic grayscale thresholding and overlays it on a new virtual background.
 
