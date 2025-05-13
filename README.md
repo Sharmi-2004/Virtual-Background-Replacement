@@ -31,12 +31,13 @@ No installation is required in Colab as all dependencies come pre-installed.
 5. The output image will be displayed and saved as `output_image_alternate.jpg`.
 
 
+## Conclusion
 
-##Conclusion
+This repository provides a simple and effective approach for background replacement using OpenCV in Google Colab. By utilizing basic image processing techniques such as grayscale conversion, thresholding, and bitwise operations, the script isolates the foreground from the original image and places it onto a new virtual background.
 
-The above code provides a simple and effective way to perform background replacement using OpenCV in Google Colab. By leveraging basic image processing techniques like grayscale conversion, thresholding, and bitwise operations, it isolates the foreground from the original image and places it onto a new virtual background.
+While this method works well for images with a clear contrast between the subject and background, it does have limitations in terms of accuracy, especially when dealing with complex backgrounds or challenging edge detection. For better results in such cases, we recommend exploring more advanced techniques, such as deep learning-based segmentation models (e.g., Mediapipe or U^2-Net).
 
-While this approach works well for images with clear contrast between the subject and background, it has limitations in accuracy and edge handling. For better results, especially with complex backgrounds or varying lighting, more advanced methods like deep learning-based segmentation (e.g., Mediapipe or U^2-Net) are recommended.
+Overall, this script provides a solid foundation for understanding image compositing and can be extended and improved for more robust real-world applications.
 
-Overall, this script serves as a solid starting point for understanding image compositing and can be enhanced further for more robust real-world applications.
+
 
