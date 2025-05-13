@@ -30,13 +30,7 @@ No installation is required in Colab as all dependencies come pre-installed.
 4. **Run the processing cells**.
 5. The output image will be displayed and saved as `output_image_alternate.jpg`.
 
-## Example
 
-```python
-input_image_path = "/content/your_subject.jpg"
-virtual_bg_path = "/content/your_background.jpg"```
-
-.
 
 ##Conclusion
 
